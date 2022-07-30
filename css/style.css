@@ -76,7 +76,7 @@ h1,h2{
 .content > center > a > img{
     border: #EA9215 0.5rem solid;
     border-radius: 1rem;
-    width: 1200px;
+    max-width: 90%;
 }
 
 td{
