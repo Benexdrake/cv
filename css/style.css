@@ -84,17 +84,21 @@ h3{
     width: 30%;
 }
 
-.content{
+.card
+{
     background-color: #303841;
     border-radius: 1rem;
     margin: 1rem 1rem 2rem 1rem;
     padding: 1rem;
 }
+.content{
+    margin: 1rem;
+}
 
 .content > center > a > img{
     border: #EA9215 0.5rem solid;
     border-radius: 1rem;
-    max-width: 90%;
+    max-width:99%;
 }
 
 td{
