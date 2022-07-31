@@ -15,18 +15,26 @@ h1,h2{
     font-size: 3rem;
 }
 
+h3{
+    margin-top: 1rem;
+}
+
 
 
 .header{
-    height: 15rem;
+    padding: 2rem 0;
     background-color: #303841;
     border-top: 1rem solid #EA9215;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+
+
 .profile-picture{
+    display: flexbox;
     padding: 0 2rem;
-    min-height: 200px;
 }
 
 .profile-picture > img{
@@ -34,11 +42,21 @@ h1,h2{
     border-radius: 100%;
 }
 
-
+.information{
+    display: flexbox;
+}
 
 .information > ul > li{
     display: inline;
     
+}
+
+.information > h1{
+    margin-bottom: 0;
+}
+
+.information > h3{
+    margin:0;
 }
 
 .information > ul > li > a > i{
